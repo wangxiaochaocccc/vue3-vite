@@ -23,6 +23,7 @@ const configEnv = {
 
 export default {
   env,
+  storageSpace: 'manager',
   mock: true,
   ...configEnv[env]
 }
