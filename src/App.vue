@@ -4,15 +4,11 @@
 
 <script>
 export default {
-  name: 'app',
-  mounted() {
-    this.$storage.setItem('name', '当黄')
-    this.$storage.setItem('age', '12')
-    console.log(this.$storage.getItem('name'))
-    this.$storage.deleteItem('age')
-    this.$storage.clearAll()
-  }
+  name: 'app'
 }
 </script>
 
-<style></style>
+<style>
+@import './assets/style/index.scss';
+@import './assets/style/reset.scss';
+</style>
